@@ -112,6 +112,7 @@ $$\exp(-i\pi \sigma_z) = I\cos(-\pi) -i\sigma_z\sin(-\pi) = -I = \begin{pmatrix}
 b) **How does this matrix act on a 2-component column vector (a spinor)?**
 
 Let the spinor be $\psi = \begin{pmatrix} a \\ b \end{pmatrix}$.
+
 The action of the matrix is:
 $$\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} \begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} -a \\ -b \end{pmatrix} = -\psi$$
 
