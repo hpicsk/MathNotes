@@ -1,4 +1,4 @@
-# Math Notes
+# Making Example Problems for eigenchris's Math Notes
 
 ## Why?
 
