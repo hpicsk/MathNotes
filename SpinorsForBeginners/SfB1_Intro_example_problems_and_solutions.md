@@ -105,14 +105,13 @@ a) **What is the $SU(2)$ matrix for a 360-degree ($2\pi$) rotation about the z-a
 The $SU(2)$ matrix for a rotation by $\theta$ around the axis $\hat{n}$ is $U = \exp(-i\frac{\theta}{2} \hat{n}\cdot\sigma)$.
 For a rotation of $2\pi$ about the z-axis, $\theta = 2\pi$ and $\hat{n} = (0,0,1)$. The Pauli matrix for the z-direction is $\sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$.
 
-So, $U = \exp(-i\frac{2\pi}{2} \sigma_z) = \exp(-i\pi \sigma_z)$. Using the formula $\exp(iA) = I\cos(\theta) + iA\sin(\theta)$ for a matrix $A$ such that $A^2=I$, and noting that $(\sigma_z)^2=I$, we have:
+So, $U = \exp(-i\frac{2\pi}{2} \sigma_z) = \exp(-i\pi \sigma_z)$. Using the formula $\exp(i\alpha A) = I\cos(\alpha) + iA\sin(\alpha)$ for a matrix $A$ such that $A^2=I$, and noting that $(\sigma_z)^2=I$, we have:
 
 $$\exp(-i\pi \sigma_z) = I\cos(-\pi) -i\sigma_z\sin(-\pi) = -I = \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}$$
 
 b) **How does this matrix act on a 2-component column vector (a spinor)?**
 
 Let the spinor be $\psi = \begin{pmatrix} a \\ b \end{pmatrix}$.
-
 The action of the matrix is:
 $$\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} \begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} -a \\ -b \end{pmatrix} = -\psi$$
 
