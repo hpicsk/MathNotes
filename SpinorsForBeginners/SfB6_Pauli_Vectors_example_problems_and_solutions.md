@@ -87,7 +87,7 @@ a) Write out the matrix $V$ explicitly in terms of x, y, and z.
 
 b) Given the vector $v = (3, 4, 5)$, write down the corresponding matrix $V$.
 
-c) Show that $\det(V) = -|v|^2$.
+c) Show that $\det(V) = -\|v\|^2$.
 
 ### Solution 3
 
@@ -99,9 +99,9 @@ b) **Given the vector $v = (3, 4, 5)$, write down the corresponding matrix $V$.*
 
 $$V = \begin{pmatrix} 5 & 3-4i \\ 3+4i & -5 \end{pmatrix}$$
 
-c) **Show that $\det(V) = -|v|^2$.**
+c) **Show that $\det(V) = -\|v\|^2$.**
 
-$$\det(V) = -z^2 - (x-iy)(x+iy) = -z^2 - (x^2+y^2) = -(x^2+y^2+z^2) = -|v|^2$$
+$$\det(V) = -z^2 - (x-iy)(x+iy) = -z^2 - (x^2+y^2) = -(x^2+y^2+z^2) = -\|v\|^2$$
 
 ## Problem 4: Rotations with Pauli Vectors
 
