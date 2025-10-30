@@ -6,16 +6,13 @@ url: "https://hpicsk.github.io"
 # Jekyll theme
 theme: minima
 
-# Math rendering configuration
+# Markdown configuration
 markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-
-# MathJax configuration
-mathjax:
-  source: https://polyfill.io/v3/polyfill.min.js?features=es6
-  config: 'MathJax.tex2jax.inlineMath = [["$", "$"], ["\\(", "\\)"]]; MathJax.tex2jax.displayMath = [["$$", "$$"], ["\\[", "\\]"]];'
+  input: GFM
+  hard_wrap: false
 
 # GitHub Pages plugins
 plugins:
