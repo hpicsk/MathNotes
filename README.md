@@ -164,27 +164,27 @@ Comprehensive collection of example problems and solutions for eigenchris's theo
 ## Tensors for Beginners
 
 ### Fundamentals
-- [Introduction](TensorsForBeginners/TfB%200%20Intro_example_problems_and_solutions.md)
-- [Forward/Backward Transformations](TensorsForBeginners/TfB%201%20ForwardBackward_example_problems_and_solutions.md)
-- [Vectors & Transformation Rules](TensorsForBeginners/TfB%202,3%20Vectors%20and%20Transformation%20Rules_example_problems_and_solutions.md)
+- [Introduction](TensorsForBeginners/TfB 0 Intro_example_problems_and_solutions.md)
+- [Forward/Backward Transformations](TensorsForBeginners/TfB 1 ForwardBackward_example_problems_and_solutions.md)
+- [Vectors & Transformation Rules](TensorsForBeginners/TfB 2,3 Vectors and Transformation Rules_example_problems_and_solutions.md)
 
 ### Covectors
-- [What are Covectors](TensorsForBeginners/TfB%204%20What%20are%20Covectors_example_problems_and_solutions.md)
-- [Covector Basis & Transformation Rules](TensorsForBeginners/TfB%205,6%20Covector%20Basis%20and%20Transformation%20Rules_example_problems_and_solutions.md)
+- [What are Covectors](TensorsForBeginners/TfB 4 What are Covectors_example_problems_and_solutions.md)
+- [Covector Basis & Transformation Rules](TensorsForBeginners/TfB 5,6 Covector Basis and Transformation Rules_example_problems_and_solutions.md)
 
 ### Linear Maps and Forms
-- [Linear Maps](TensorsForBeginners/TfB%207%20Linear%20Maps_example_problems_and_solutions.md)
-- [Linear Map Transformation Rules](TensorsForBeginners/TfB%208%20Linear%20Map%20Transformation%20Rules_example_problems_and_solutions.md)
-- [Metric Tensor](TensorsForBeginners/TfB%209%20Metric%20Tensor_example_problems_and_solutions.md)
-- [Bilinear Forms](TensorsForBeginners/TfB%2010%20Bilinear%20Forms_example_problems_and_solutions.md)
+- [Linear Maps](TensorsForBeginners/TfB 7 Linear Maps_example_problems_and_solutions.md)
+- [Linear Map Transformation Rules](TensorsForBeginners/TfB 8 Linear Map Transformation Rules_example_problems_and_solutions.md)
+- [Metric Tensor](TensorsForBeginners/TfB 9 Metric Tensor_example_problems_and_solutions.md)
+- [Bilinear Forms](TensorsForBeginners/TfB 10 Bilinear Forms_example_problems_and_solutions.md)
 
 ### Advanced Tensor Concepts
-- [Linear Maps as Vector-Covector Pairs](TensorsForBeginners/TfB%2011%20Linear%20Maps%20are%20Vector-Covector%20Pairs_example_problems_and_solutions.md)
-- [Bilinear Forms as Covector-Covector Pairs](TensorsForBeginners/TfB%2012%20Bilinear%20Forms%20are%20Covector-Covector%20Pairs_example_problems_and_solutions.md)
-- [Tensor Product vs Kronecker Product](TensorsForBeginners/TfB%2013%20Tensor%20Product%20vs%20Kronecker%20Product_example_problems_and_solutions.md)
-- [Tensors as General Vector-Covector Combinations](TensorsForBeginners/TfB%2014%20Tensors%20are%20General%20Vector%20Covector%20Combinations_example_problems_and_solutions.md)
-- [Tensor Product Spaces](TensorsForBeginners/TfB%2015%20Tensor%20Product%20Spaces_example_problems_and_solutions.md)
-- [Raising and Lowering Indexes](TensorsForBeginners/TfB%2016%20Raising%20and%20Lowering%20Indexes_example_problems_and_solutions.md)
+- [Linear Maps as Vector-Covector Pairs](TensorsForBeginners/TfB 11 Linear Maps are Vector-Covector Pairs_example_problems_and_solutions.md)
+- [Bilinear Forms as Covector-Covector Pairs](TensorsForBeginners/TfB 12 Bilinear Forms are Covector-Covector Pairs_example_problems_and_solutions.md)
+- [Tensor Product vs Kronecker Product](TensorsForBeginners/TfB 13 Tensor Product vs Kronecker Product_example_problems_and_solutions.md)
+- [Tensors as General Vector-Covector Combinations](TensorsForBeginners/TfB 14 Tensors are General Vector Covector Combinations_example_problems_and_solutions.md)
+- [Tensor Product Spaces](TensorsForBeginners/TfB 15 Tensor Product Spaces_example_problems_and_solutions.md)
+- [Raising and Lowering Indexes](TensorsForBeginners/TfB 16 Raising and Lowering Indexes_example_problems_and_solutions.md)
 
 ---
 
