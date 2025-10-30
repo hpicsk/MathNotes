@@ -17,7 +17,9 @@ $$\cos(\theta) = \frac{\mathbf{v} \cdot \mathbf{w}}{||\mathbf{v}|| \, ||\mathbf{
 So $\theta = 45°$.
 
 ## Problem 3
-Consider a non-Euclidean 2D space with a metric tensor $g = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$. What is the length of the vector $(1, 1)$ in this space?
+Consider a non-Euclidean 2D space with a metric tensor 
+$$g = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$$
+What is the length of the vector $(1, 1)$ in this space?
 
 ## Solution 3
 $$\text{Length}^2 = \mathbf{v}^T g \mathbf{v} = \begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 3 \\ 3 \end{bmatrix} = 6$$

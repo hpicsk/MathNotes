@@ -1,7 +1,9 @@
 # TfB 10 Bilinear Forms: Example Problems and Solutions
 
 ## Problem 1
-A bilinear form $B$ is represented by the matrix $M = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$. Given two vectors $\mathbf{v} = (1, 1)$ and $\mathbf{w} = (2, 0)$, compute $B(\mathbf{v}, \mathbf{w})$.
+A bilinear form $B$ is represented by the matrix 
+$$M = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+Given two vectors $\mathbf{v} = (1, 1)$ and $\mathbf{w} = (2, 0)$, compute $B(\mathbf{v}, \mathbf{w})$.
 
 ## Solution 1
 $$B(\mathbf{v}, \mathbf{w}) = \mathbf{v}^T M \mathbf{w} = \begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 2 \\ 0 \end{bmatrix} = \begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 2 \\ 6 \end{bmatrix} = 1 \cdot 2 + 1 \cdot 6 = 8$$
@@ -20,7 +22,8 @@ $M_{21} = B((0,1), (1,0)) = 3$
 
 $M_{22} = B((0,1), (0,1)) = 4$
 
-So, $M = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$.
+So, 
+$$M = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
 
 ## Problem 3
 Is the dot product a bilinear form? Justify your answer.

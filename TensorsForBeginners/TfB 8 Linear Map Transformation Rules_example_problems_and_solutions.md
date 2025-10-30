@@ -1,7 +1,9 @@
 # TfB 8 Linear Map Transformation Rules: Example Problems and Solutions
 
 ## Problem 1
-The matrix of a linear map $L$ in the standard basis is $\begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$. What is the matrix of $L$ in a basis obtained by rotating the standard basis by 45 degrees?
+The matrix of a linear map $L$ in the standard basis is 
+$$\begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$$
+What is the matrix of $L$ in a basis obtained by rotating the standard basis by 45 degrees?
 
 ## Solution 1
 The change of basis matrix is:

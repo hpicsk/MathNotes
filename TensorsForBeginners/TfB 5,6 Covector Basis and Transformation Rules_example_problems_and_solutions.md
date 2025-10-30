@@ -4,7 +4,9 @@
 A covector $\mathbf{f}$ has components $(2, -1)$ in the dual basis $\{\mathbf{e^*_1}, \mathbf{e^*_2}\}$ corresponding to the standard basis $\{\mathbf{e_1}, \mathbf{e_2}\}$. Consider the new basis from problem 1 in "TfB 2,3". What are the components of $\mathbf{f}$ in the dual basis corresponding to this new basis?
 
 ## Solution 1
-The transformation matrix for the basis vectors is $P = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}$. The components of the covector transform by $P^T$.
+The transformation matrix for the basis vectors is 
+$$P = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}$$
+The components of the covector transform by $P^T$.
 
 $$P^T = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}^T = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}$$
 

@@ -1,7 +1,9 @@
 # TfB 13 Tensor Product vs Kronecker Product: Example Problems and Solutions
 
 ## Problem 1
-Given the matrices $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ and $B = \begin{bmatrix} 0 & 5 \\ 6 & 7 \end{bmatrix}$, compute their tensor product and their Kronecker product.
+Given the matrices 
+$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \quad \text{and} \quad B = \begin{bmatrix} 0 & 5 \\ 6 & 7 \end{bmatrix}$$
+compute their tensor product and their Kronecker product.
 
 ## Solution 1
 The Kronecker product is a specific way of arranging the tensor product into a matrix.

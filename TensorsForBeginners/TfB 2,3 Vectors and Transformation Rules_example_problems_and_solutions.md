@@ -4,7 +4,9 @@
 A vector $\mathbf{v}$ has components $(1, 2)$ in the standard basis $\{\mathbf{e_1}, \mathbf{e_2}\}$. A new basis $\{\mathbf{e'_1}, \mathbf{e'_2}\}$ is given by $\mathbf{e'_1} = 2\mathbf{e_1} + \mathbf{e_2}$ and $\mathbf{e'_2} = \mathbf{e_1} - \mathbf{e_2}$. What are the components of $\mathbf{v}$ in this new basis?
 
 ## Solution 1
-The change of basis matrix from the new basis to the old is $P = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}$. The new components $\mathbf{v}'$ are given by $\mathbf{v}' = P^{-1} \mathbf{v}$.
+The change of basis matrix from the new basis to the old is 
+$$P = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}$$
+The new components $\mathbf{v}'$ are given by $\mathbf{v}' = P^{-1} \mathbf{v}$.
 
 $$P^{-1} = \frac{1}{(-2-1)} \begin{bmatrix} -1 & -1 \\ -1 & 2 \end{bmatrix} = \frac{1}{3} \begin{bmatrix} 1 & 1 \\ 1 & -2 \end{bmatrix}$$
 
