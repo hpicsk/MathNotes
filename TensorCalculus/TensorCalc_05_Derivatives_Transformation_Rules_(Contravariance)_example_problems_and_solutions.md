@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Derivatives Transformation Rules (Contravariance) Example Problems and Solutions
+permalink: /TensorCalculus/TensorCalc_05_Derivatives_Transformation_Rules_Contravariance_examples/
 ---
 
 # Example Problems and Solutions: Derivatives Transformation Rules (Contravariance)
