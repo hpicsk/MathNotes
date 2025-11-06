@@ -1,9 +1,3 @@
----
-layout: default
-title: Covector Field Transformation Rules (Covariance) Example Problems and Solutions
-permalink: /TensorCalculus/TensorCalc_08_Covector_Field_Transformation_Rules_Covariance_examples/
----
-
 # Example Problems and Solutions: Covector Field Transformation Rules (Covariance)
 
 ## Covariant Vectors (Covectors)
