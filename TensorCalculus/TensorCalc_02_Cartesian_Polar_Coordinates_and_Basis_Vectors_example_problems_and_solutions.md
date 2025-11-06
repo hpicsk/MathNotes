@@ -57,48 +57,48 @@ $$(0, -1)$$
 ## Basis Vectors
 
 ### Problem 1
-Express the Cartesian basis vectors $(\mathbf{e}_{x}, \mathbf{e}_{y})$ in terms of the polar basis vectors $(\mathbf{e}_{r}, \mathbf{e}_{\theta})$.
+Express the Cartesian basis vectors $(\boldsymbol{e}_{x}, \boldsymbol{e}_{y})$ in terms of the polar basis vectors $(\boldsymbol{e}_{r}, \boldsymbol{e}_{\theta})$.
 
 ### Solution 1
-$$\mathbf{e}_{x} = \cos(\theta) \mathbf{e}_{r} - \sin(\theta) \mathbf{e}_{\theta}$$
-$$\mathbf{e}_{y} = \sin(\theta) \mathbf{e}_{r} + \cos(\theta) \mathbf{e}_{\theta}$$
+$$\boldsymbol{e}_{x} = \cos(\theta) \boldsymbol{e}_{r} - \sin(\theta) \boldsymbol{e}_{\theta}$$
+$$\boldsymbol{e}_{y} = \sin(\theta) \boldsymbol{e}_{r} + \cos(\theta) \boldsymbol{e}_{\theta}$$
 
 ### Problem 2
-Express the polar basis vectors $(\mathbf{e}_{r}, \mathbf{e}_{\theta})$ in terms of the Cartesian basis vectors $(\mathbf{e}_{x}, \mathbf{e}_{y})$.
+Express the polar basis vectors $(\boldsymbol{e}_{r}, \boldsymbol{e}_{\theta})$ in terms of the Cartesian basis vectors $(\boldsymbol{e}_{x}, \boldsymbol{e}_{y})$.
 
 ### Solution 2
-$$\mathbf{e}_{r} = \cos(\theta) \mathbf{e}_{x} + \sin(\theta) \mathbf{e}_{y}$$
-$$\mathbf{e}_{\theta} = -\sin(\theta) \mathbf{e}_{x} + \cos(\theta) \mathbf{e}_{y}$$
+$$\boldsymbol{e}_{r} = \cos(\theta) \boldsymbol{e}_{x} + \sin(\theta) \boldsymbol{e}_{y}$$
+$$\boldsymbol{e}_{\theta} = -\sin(\theta) \boldsymbol{e}_{x} + \cos(\theta) \boldsymbol{e}_{y}$$
 
 ### Problem 3
-Given a vector $\mathbf{v} = 3\mathbf{e}_{x} + 4\mathbf{e}_{y}$, express $\mathbf{v}$ in terms of the polar basis vectors $(\mathbf{e}_{r}, \mathbf{e}_{\theta})$ at the point $(1, 1)$.
+Given a vector $\boldsymbol{v} = 3\boldsymbol{e}_{x} + 4\boldsymbol{e}_{y}$, express $\boldsymbol{v}$ in terms of the polar basis vectors $(\boldsymbol{e}_{r}, \boldsymbol{e}_{\theta})$ at the point $(1, 1)$.
 
 ### Solution 3
 At the point $(1, 1)$, we have $r = \sqrt{2}$ and $\theta = \pi/4$.
 
 The radial component is:
-$$v_r = \mathbf{v} \cdot \mathbf{e}_{r} = (3\mathbf{e}_{x} + 4\mathbf{e}_{y}) \cdot (\cos(\theta)\mathbf{e}_{x} + \sin(\theta)\mathbf{e}_{y}) = 3\cos(\theta) + 4\sin(\theta)$$
+$$v_r = \boldsymbol{v} \cdot \boldsymbol{e}_{r} = (3\boldsymbol{e}_{x} + 4\boldsymbol{e}_{y}) \cdot (\cos(\theta)\boldsymbol{e}_{x} + \sin(\theta)\boldsymbol{e}_{y}) = 3\cos(\theta) + 4\sin(\theta)$$
 
 At $\theta = \pi/4$:
 $$v_r = 3 \cdot \frac{\sqrt{2}}{2} + 4 \cdot \frac{\sqrt{2}}{2} = \frac{7\sqrt{2}}{2}$$
 
 The angular component is:
-$$v_{\theta} = \mathbf{v} \cdot \mathbf{e}_{\theta} = (3\mathbf{e}_{x} + 4\mathbf{e}_{y}) \cdot (-\sin(\theta)\mathbf{e}_{x} + \cos(\theta)\mathbf{e}_{y}) = -3\sin(\theta) + 4\cos(\theta)$$
+$$v_{\theta} = \boldsymbol{v} \cdot \boldsymbol{e}_{\theta} = (3\boldsymbol{e}_{x} + 4\boldsymbol{e}_{y}) \cdot (-\sin(\theta)\boldsymbol{e}_{x} + \cos(\theta)\boldsymbol{e}_{y}) = -3\sin(\theta) + 4\cos(\theta)$$
 
 At $\theta = \pi/4$:
 $$v_{\theta} = -3 \cdot \frac{\sqrt{2}}{2} + 4 \cdot \frac{\sqrt{2}}{2} = \frac{\sqrt{2}}{2}$$
 
 Therefore:
-$$\mathbf{v} = \frac{7\sqrt{2}}{2} \mathbf{e}_{r} + \frac{\sqrt{2}}{2} \mathbf{e}_{\theta}$$
+$$\boldsymbol{v} = \frac{7\sqrt{2}}{2} \boldsymbol{e}_{r} + \frac{\sqrt{2}}{2} \boldsymbol{e}_{\theta}$$
 
 ## Vector Transformations
 
 ### Problem 1
-A vector $\mathbf{v}$ has components $(2, 3)$ in the Cartesian basis. What are its components in the polar basis at the point $(1, \pi/4)$?
+A vector $\boldsymbol{v}$ has components $(2, 3)$ in the Cartesian basis. What are its components in the polar basis at the point $(1, \pi/4)$?
 
 ### Solution 1
 The transformation from Cartesian to polar components is given by:
-$$\begin{pmatrix} v_r \ v_{\theta} \ \end{pmatrix} = \begin{pmatrix} \cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \\ \end{pmatrix} \begin{pmatrix} v_x \ v_y \ \end{pmatrix}$$
+$$\begin{pmatrix} v_r \\ v_{\theta} \end{pmatrix} = \begin{pmatrix} \cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{pmatrix} \begin{pmatrix} v_x \\ v_y \end{pmatrix}$$
 
 At $\theta = \pi/4$:
 $$v_r = 2\cos\left(\frac{\pi}{4}\right) + 3\sin\left(\frac{\pi}{4}\right) = 2 \cdot \frac{\sqrt{2}}{2} + 3 \cdot \frac{\sqrt{2}}{2} = \frac{5\sqrt{2}}{2}$$
@@ -108,14 +108,14 @@ $$v_{\theta} = -2\sin\left(\frac{\pi}{4}\right) + 3\cos\left(\frac{\pi}{4}\right
 The components are $\left(\frac{5\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)$.
 
 ### Problem 2
-A vector field is given by $\mathbf{F} = r^2 \mathbf{e}_{r}$. Express this vector field in Cartesian coordinates.
+A vector field is given by $\boldsymbol{F} = r^2 \boldsymbol{e}_{r}$. Express this vector field in Cartesian coordinates.
 
 ### Solution 2
-$$\mathbf{F} = r^2 (\cos(\theta) \mathbf{e}_{x} + \sin(\theta) \mathbf{e}_{y})$$
+$$\boldsymbol{F} = r^2 (\cos(\theta) \boldsymbol{e}_{x} + \sin(\theta) \boldsymbol{e}_{y})$$
 
-$$\mathbf{F} = (r^2 \cos(\theta)) \mathbf{e}_{x} + (r^2 \sin(\theta)) \mathbf{e}_{y}$$
+$$\boldsymbol{F} = (r^2 \cos(\theta)) \boldsymbol{e}_{x} + (r^2 \sin(\theta)) \boldsymbol{e}_{y}$$
 
 Since $x = r\cos(\theta)$ and $y = r\sin(\theta)$, we have $r^2 = x^2 + y^2$ and $r = \sqrt{x^2 + y^2}$.
 
 Therefore:
-$$\mathbf{F} = (r \cdot x) \mathbf{e}_{x} + (r \cdot y) \mathbf{e}_{y} = \sqrt{x^2 + y^2} (x \mathbf{e}_{x} + y \mathbf{e}_{y})$$
+$$\boldsymbol{F} = (r \cdot x) \boldsymbol{e}_{x} + (r \cdot y) \boldsymbol{e}_{y} = \sqrt{x^2 + y^2} (x \boldsymbol{e}_{x} + y \boldsymbol{e}_{y})$$
